@@ -1,21 +1,39 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'components.scss';
 body {
     &._lng {
       margin: 0;
-      //components\
-      ._wrap {
-        width: 1108px;
-        max-width: 1108px;
-        display: table;
-        margin: auto;
+      ._header {
+        background-color: $header-bg;
       }
-      ._wrapper {
-        width: 100%;
-        margin: 0 auto;
-        &::after {
-          content: '';
-          display: block;
-          clear: both;
+      //Menu
+      ._menu {
+        float: left;
+        nav {
+          ._main-menu{
+            background: transparent;
+            li {
+              display: inline-block;
+              text-align: center;
+              padding-left: 5px;
+              padding-right: 5px;
+              text-decoration: none;
+              list-style: none;
+              font-family: $body-font;
+              a {
+                color: $white;
+                text-decoration: none;
+                list-style: none;
+                font-family: $body-font;
+              }
+            }
+          }
         }
+      }
+      //components
+
+      ._wrapper {
         &._hero-div {
           ._hero {
             img {
@@ -26,8 +44,8 @@ body {
         }
       }
       ._row {
-        margin-left: -15px;
-        margin-right: -15px;
+        //margin-left: -15px;
+        //margin-right: -15px;
         &::after {
           content: '';
           display: block;

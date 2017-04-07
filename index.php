@@ -37,9 +37,9 @@
             <p>&copy;Howard Laing 2016. All rights reserved.</p>
         </div>
       </footer>
-    <!------- Load jQuery--------->
+
         <script src="main-js/jquery-2.2.3.js"></script>
-    <!-------Gallery JS------------>
+
         <script src="lightGallery-master/dist/js/lightgallery.js"></script>
         <script src="lightGallery-master/dist/js/lg-thumbnail.min.js"></script>
         <script src="lightGallery-master/dist/js/lg-fullscreen.min.js"></script>
@@ -48,7 +48,7 @@
                 $("#lightgallery").lightGallery();
             });
         </script>
-        <!-----HEADER COLOR CHANGE-->
+        <!---HEADER COLOR CHANGE-->
         <script>
             $(window).scroll(function() {
             if ($(this).scrollTop() > 10){
@@ -59,7 +59,7 @@
               }
             });
         </script>
-        <!------MENU TOGGLE------->
+        <!--MENU TOGGLE------->
         <script>
             $(document).ready(function(){
                 $('.menu-icon').on('click', function(){
@@ -83,7 +83,7 @@
           target.addClass('active');
         });
         </script>
-        <!-------ANIMATED COUNTER---------->
+        <!--ANIMATED COUNTER---------->
         <script>
             $(document).ready(function(){
                $('.count').each(function () {
@@ -99,7 +99,7 @@
             });
             });
         </script>
-        <!------WHAT WE DO ANIMATION----------------->
+        <!--WHAT WE DO ANIMATION----------------->
         <script>
             var animateName= "animated fadeInUp";
             var animateEnd= "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
@@ -120,7 +120,7 @@
                 });
             });
         </script>
-        <!-----BACK TO TOP-------->
+        <!---BACK TO TOP-------->
         <script>
             $(document).ready(function() {
                 var offset=250, // At what pixels show Back to Top Button

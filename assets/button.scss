@@ -1,0 +1,59 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+._btn, {
+  text-align: center;
+  display: inline-block;
+  //font-family: $body-font;
+  text-transform: uppercase;
+  text-decoration: none;
+  @include border-radius(7px);
+  cursor: pointer;
+  letter-spacing: 3px;
+  min-width: 223px;
+  max-width: 100%;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1;
+  &._lg {
+    padding: 15px 60px;
+    //@extend ._bold-txt;
+    //@extend ._t30;
+    @include max-screen (750px) {
+      font-size: 20px;
+      padding: 15px 40px;
+    }
+    //@extend ._txt-white;
+    &:hover {
+      //@extend ._txt-white;
+    }
+  }
+  &._sm, {
+    padding: 13px 20px;
+    //@extend ._bold-txt;
+    //@extend ._t24;
+    @include max-screen (988px) {
+      font-size: 18px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &:hover {
+      //@extend ._txt-white;
+    }
+  }
+  &._green {
+    //background-color: $green;
+    //border-color: $green;
+    color: $white;
+    &:hover {
+      //background-color: darken($green,5%);
+    }
+  }
+  &._blue, {
+    //background-color: $blue;
+    //border-color: $blue;
+    color: $white;
+    &:hover {
+      //background-color: darken($blue,5%);
+    }
+  }
+}

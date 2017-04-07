@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
-@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
 ._wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -385,45 +384,4 @@ p {
 ._row._col-623 {
   width: 623px; }
 
-body._lng {
-  margin: 0; }
-  body._lng ._header {
-    background-color: #2A333C; }
-  body._lng ._menu {
-    float: left; }
-    body._lng ._menu nav ._main-menu {
-      background: transparent; }
-      body._lng ._menu nav ._main-menu li {
-        display: inline-block;
-        text-align: center;
-        padding-left: 5px;
-        padding-right: 5px;
-        text-decoration: none;
-        list-style: none;
-        font-family: "Anonymous Pro", monospace; }
-        body._lng ._menu nav ._main-menu li a {
-          color: #fff;
-          text-decoration: none;
-          list-style: none;
-          font-family: "Anonymous Pro", monospace; }
-  body._lng ._wrapper._hero-div ._hero img {
-    height: 100%;
-    width: 100%; }
-  body._lng ._row::after {
-    content: '';
-    display: block;
-    clear: both; }
-  body._lng ._row [class^="_col-"] {
-    float: left;
-    padding-left: 15px;
-    padding-right: 15px; }
-  body._lng ._row ._col-33 {
-    width: 33.333333333%; }
-  body._lng ._row._no-padding {
-    margin-left: 0;
-    margin-right: 0; }
-    body._lng ._row._no-padding [class^="_col-"] {
-      padding-left: 0;
-      padding-right: 0; }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=components.css.map */

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
+._btn {
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+  letter-spacing: 3px;
+  min-width: 223px;
+  max-width: 100%;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1; }
+  ._btn._lg {
+    padding: 15px 60px; }
+    @media screen and (max-width: 750px) {
+      ._btn._lg {
+        font-size: 20px;
+        padding: 15px 40px; } }
+  ._btn._sm {
+    padding: 13px 20px; }
+    @media screen and (max-width: 988px) {
+      ._btn._sm {
+        font-size: 18px;
+        padding-left: 0;
+        padding-right: 0; } }
+  ._btn._green {
+    color: #fff; }
+  ._btn._blue {
+    color: #fff; }
+
+/*# sourceMappingURL=button.css.map */

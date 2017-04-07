@@ -30,22 +30,22 @@
 </head>
 
     <body class="_lng">
-        <header>
-            <div class="row">
-                <div class="col_4">
-                    <a href="index.php"><img class="logo" src="images/logo.png"></a>
-                    <img class="menu-icon" src="images/menu_icon.png">
-                </div>
-                <div class="col_8">
-                    <nav id="main-menu">
-                        <ul>
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="about.php">About</a></li>
-                            <li><a href="portfolio.php">Portfolio</a></li>
-                            <li><a href="services.php">Services</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
+            <div class="_wrapper _header">
+              <div class="_row">
+                  <div class="_col-33">
+                      <a href="index.php"><img class="logo" src="images/logo.png"></a>
+                      <img class="menu-icon" src="images/menu_icon.png">
+                  </div>
+                  <div class="_menu">
+                      <nav>
+                          <ul class="_main-menu">
+                              <li><a href="index.php">Home</a></li>
+                              <li><a href="about.php">About</a></li>
+                              <li><a href="portfolio.php">Portfolio</a></li>
+                              <li><a href="services.php">Services</a></li>
+                              <li><a href="contact.php">Contact</a></li>
+                          </ul>
+                      </nav>
+                  </div>
+              </div>
             </div>
-        </header>
